@@ -1,0 +1,84 @@
+/* Couleurs */
+$primary: #007965!important;  
+$secondary: #F58634!important;
+$success: #00AF91!important;
+$alert: #FFCC29!important;
+$grey: #e6e6e6;
+
+
+.bg-primary, .btn-primary {
+  background-color: $primary;
+  border: none;
+}
+
+.bg-secondary, .btn-secondary {
+  background-color: $secondary;
+  border: none;
+} 
+
+.bg-success, .btn-success {
+  background-color: $success;
+  border: none;
+}
+
+.bg-alert, .btn-alert {
+  background-color: $alert;
+  border: none;
+} 
+
+.bg-grey, .btn-grey {
+  background-color: $grey;
+  border: none;
+} 
+
+.btn-primary:hover {
+  background-color: rgba(0, 121, 101, 0.85)!important;
+}
+
+.btn-alert:hover {
+  background-color: rgba(255, 204, 41, 0.85)!important;
+  color: white;
+}
+
+.text-primary {
+  color: $primary;
+}
+
+.text-secondary {
+  color: $secondary;
+}
+
+.text-success {
+  color: $success;
+}
+
+.text-alert {
+  color: $alert;
+}
+
+.text-grey {
+  color: $grey;
+}
+/* fin couleurs */
+
+
+
+
+#old_image {
+    resize: none;    
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.face {
+  width: 10rem;
+  height: auto;
+}
+
+.contact-icon {
+  font-size: 2rem;  
+  color: $grey;
+}
